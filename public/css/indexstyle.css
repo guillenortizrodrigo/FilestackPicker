@@ -1,0 +1,54 @@
+body{
+    background-color: rgb(29, 29, 31);
+}
+
+.container{
+    margin: 20px;
+    padding: 15px;
+    align-items: center;
+    text-align: center;
+    background-color: rgb(167, 159, 159);
+    border-radius: 10px;
+    border-width: 1px;
+    color: aliceblue;
+    display: block;
+}
+
+.subidoscontainer{
+    display: inline-block;
+}
+
+button{
+    font-size: 20px;
+    background-color: black;
+    color: white;
+    padding: 5px;
+    font-style:oblique;
+    border-radius: 10px;
+}
+
+.subidoscontainer li{
+    display: inline-flex;
+    border-radius: 10px;
+    border-width: 3px;
+    border-color: black;
+    background-color: black;
+    padding: 10px;
+    margin: 5px;
+    align-items: center;
+    max-width: 300px;
+}
+
+.subidoscontainer img{
+    width: 100px;
+    height: 100px;
+}
+
+.subidoscontainer i{
+    width: 100px;
+    height: 100px;
+}
+
+h5{
+    margin-left: 5px;
+}
