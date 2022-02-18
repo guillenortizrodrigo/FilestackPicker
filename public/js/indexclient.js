@@ -37,7 +37,7 @@ class filepickerJS{
             htmlcontructor += '<li id="'+item.url+'">';
             if(item.filetype == "pdf"){
                 htmlcontructor += '<img src="/img/pdf.png">';
-            }else if(item.filetype == "png" || item.filetype == "jpg"){
+            }else if(item.filetype == "png" || item.filetype == "jpg" || item.filetype == "jpeg"){
                 htmlcontructor += '<img src="/img/img.jpg">';
             }else if(item.filetype == "plain"){
                 htmlcontructor += '<img src="/img/text.png">';
@@ -73,7 +73,7 @@ class filepickerJS{
             htmlcontructor += '<li id="'+item.url+'">';
             if(item.type[1] == "pdf"){
                 htmlcontructor += '<img src="/img/pdf.png">';
-            }else if(item.type[1] == "png" || item.filetype == "jpg"){
+            }else if(item.type[1] == "png" || item.filetype == "jpg" || item.filetype == "jpeg"){
                 htmlcontructor += '<img src="/img/img.jpg">';
             }else if(item.type[1] == "plain"){
                 htmlcontructor += '<img src="/img/text.png">';
