@@ -73,7 +73,7 @@ class filepickerJS{
             htmlcontructor += '<li id="'+item.url+'">';
             if(item.type[1] == "pdf"){
                 htmlcontructor += '<img src="/img/pdf.png">';
-            }else if(item.type[1] == "png" || item.filetype == "jpg" || item.filetype == "jpeg"){
+            }else if(item.type[1] == "png" || item.type[1] == "jpg" || item.type[1] == "jpeg"){
                 htmlcontructor += '<img src="/img/img.jpg">';
             }else if(item.type[1] == "plain"){
                 htmlcontructor += '<img src="/img/text.png">';
